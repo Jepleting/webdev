@@ -35,7 +35,7 @@ export default function Home() {
           <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Jepleting Linah</h2>
           <h3 className="text-2xl py-2 md:text-3xl">Software Engineer and Data Scientist.</h3>
           <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto ">A curious and self-driven software engineer with a knack for problem solving.
-            I love to learn new technologies, and I am always looking for new opportunities.
+            I learning new technologies, and I am always looking for new opportunities to expand my skillset.
             Lets connect and get cracking!
           </p>
         </div>
@@ -51,60 +51,33 @@ export default function Home() {
       {/* section two */}
       <section>
         <div>
-          <h3 className="text-3xl py-1">My Skillset</h3>
+          <h3 className="text-3xl py-1 text-black">My Skillset</h3>
           <p className="text-md py-2 leading-8 text-gray-800">
             I am very proficient in  Python programming language , React.js ,Next.js ,html and css.
           </p>
         </div>
         <div>
-          <h3 className="text-3xl py-1">Personal Projects</h3>
+          <h3 className="text-3xl py-1 text-black">Personal Projects</h3>
           <div>
-            <h4>Web Development</h4>
             <div className="flex space-x-10 mb-10"> 
               <div className="text-center shadow-xl rounded-xl my-10 h-80">
-                <h5 className="py-2 text-teal-600">Portofolio</h5>
-                <p>This is this very website which highlights my skillset and personal projects done</p>
+                <h5 className="py-2 text-teal-600">UI/UX</h5>
+                <p className="text-black">This is this very website which highlights my skillset and personal projects done</p>
               </div>
               <div className="text-center shadow-xl rounded-xl my-10">
-              <h5 className="py-2 text-teal-600">Yoga Studio Website</h5>
-                <p>This is this very website which highlights my skillset and personal projects done</p>
+              <h5 className="py-2 text-teal-600">Web-Development</h5>
+                <p className="text-black">This is this very website which highlights my skillset and personal projects done</p>
               </div>
               <div className="text-center shadow-xl rounded-xl my-10">
-              <h5 className="py-2 text-teal-600">E-commerce website</h5>
-                <p>This is this very website which highlights my skillset and personal projects done</p>
+              <h5 className="py-2 text-teal-600">Data-Science</h5>
+                <p className="text-black">This is this very website which highlights my skillset and personal projects done</p>
               </div>
             </div>
           </div>
 
-          <div>
-            <h4>Machine learning</h4>
-              <div className="flex space-x-10 ">
-                <div className="text-center shadow-xl rounded-xl my-10 h-80">
-                  <h5 className="py-2 text-teal-600">Used-vehicle Price Prediction System</h5>
-                  <p>This is this very website which highlights my skillset and personal projects done</p>
-                </div>
-                <div className="text-center shadow-xl rounded-xl my-10">
-                <h5 className="py-2 text-teal-600">Fake Job Posting Prediction</h5>
-                  <p  className="py-2">This is this very website which highlights my skillset and personal projects done</p>
-                </div>
-                <div className="text-center shadow-xl rounded-xl my-10">
-                <h5 className="py-2 text-teal-600">House Price Prediction</h5>
-                  <p>This is this very website which highlights my skillset and personal projects done</p>
-                </div>
-            </div>
-          </div>
+          
         </div>
       </section>
-      <section>
-      <div>
-        <h3 className="text-3xl py-1">Portofolio</h3>
-            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap"> 
-              <div className="basis-1/3 flex-1"></div>
-              <div className="basis-1/3 flex-1"></div>
-              <div className="basis-1/3 flex-1"></div>
-            </div>
-          </div>
-      </section> 
     </main>
     </div>
   )
