@@ -35,7 +35,7 @@ export default function Home() {
           <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Jepleting Linah</h2>
           <h3 className="text-2xl py-2 md:text-3xl">Software Engineer and Data Scientist.</h3>
           <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto ">A curious and self-driven software engineer with a knack for problem solving.
-            I learning new technologies, and I am always looking for new opportunities to expand my skillset.
+            I love learning new technologies, and I am always looking for new opportunities to expand my skillset.
             Lets connect and get cracking!
           </p>
         </div>
