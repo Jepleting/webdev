@@ -4,11 +4,11 @@ import {BsGithub} from 'react-icons/bs';
 import {AiFillTwitterCircle,AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
 import avatar from "../public/avatar1.jpg";
-import { useState } from "react";
+import Link from 'next/link';
 
 
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -40,8 +40,8 @@ export default function Home() {
           </p>
         </div>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-          <AiFillLinkedin/>
-          <AiFillTwitterCircle/>
+        <Link href="https://www.linkedin.com/in/jepleting-linah-5643b31b1/"><AiFillLinkedin/></Link>
+        <Link href="https://twitter.com/jepleting_11780"> <AiFillTwitterCircle/></Link>
         </div>
         <div className="relative mx-auto rounded-full w-80 h-80 mt-5 md:h-96 md:w-96">
           <Image src={avatar} />
@@ -50,27 +50,30 @@ export default function Home() {
 
       {/* section two */}
       <section>
-        <div>
+        {/* <div>
           <h3 className="text-3xl py-1 text-black">My Skillset</h3>
           <p className="text-md py-2 leading-8 text-gray-800">
             I am very proficient in  Python programming language , React.js ,Next.js ,html and css.
           </p>
-        </div>
+        </div> */}
         <div>
           <h3 className="text-3xl py-1 text-black">Personal Projects</h3>
           <div>
             <div className="flex space-x-10 mb-10"> 
-              <div className="text-center shadow-xl rounded-xl my-10 h-80">
-                <h5 className="py-2 text-teal-600">UI/UX</h5>
-                <p className="text-black">This is this very website which highlights my skillset and personal projects done</p>
+              <div className="text-center shadow-xl rounded-xl my-10 h-80 w-80 grow-0">
+                <h5 className="py-2 text-teal-600 text-lg">UI/UX</h5>
+                <p className="text-black">I recently began learning UI/UX design.
+                <Link  className=" text-teal-400" href="https://www.figma.com/file/Z8AffE4ivgHHKNzaFFZySt/Vitality?type=design&node-id=0%3A1&mode=dev">Click here</Link> to view a project I did in Figma</p>
               </div>
-              <div className="text-center shadow-xl rounded-xl my-10">
-              <h5 className="py-2 text-teal-600">Web-Development</h5>
-                <p className="text-black">This is this very website which highlights my skillset and personal projects done</p>
+              <div className="text-center shadow-xl rounded-xl my-10 h-80 w-80 grow-0">
+              <h5 className="py-2 text-teal-600 text-lg">Web-Development</h5>
+                <p className="text-black">I am currently working on an e-commerce project for a store selling wallpapers.
+                <Link  className=" text-teal-400" href="https://github.com/Jepleting/e-commerce-store">Click here</Link> to view my progress in Github.</p>
               </div>
-              <div className="text-center shadow-xl rounded-xl my-10">
-              <h5 className="py-2 text-teal-600">Data-Science</h5>
-                <p className="text-black">This is this very website which highlights my skillset and personal projects done</p>
+              <div className="text-center shadow-xl rounded-xl my-10 h-80 w-80 grow-0">
+              <h5 className="py-2 text-teal-600 text-lg">Data-Science</h5>
+                <p className="text-black">I recently pivoted into Web Development from Data Science and you can view some of my previous projects 
+                done with Python in my Github. </p>
               </div>
             </div>
           </div>
